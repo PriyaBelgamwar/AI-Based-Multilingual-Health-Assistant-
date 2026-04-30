@@ -1,0 +1,417 @@
+{
+  "fever": {
+    "symptoms": {
+      "en": ["fever", "high temperature", "body ache", "chills", "warm forehead"],
+      "hi": ["मुझे बुखार है", "बुखार", "तापमान बढ़ रहा है", "ठंड लग रही है"],
+      "mr": ["मला ताप आला आहे", "ताप", "शरीर दुखतंय", "थंडी वाजतेय"]
+    },
+    "diseases": ["Viral Fever", "Seasonal Flu", "Typhoid (possible)"],
+    "advice": {
+      "en": "You may have a viral fever. Stay hydrated, rest, and check your temperature regularly.",
+      "hi": "आपको वायरल बुखार हो सकता है। पानी पिएं, आराम करें और तापमान चेक करते रहें।",
+      "mr": "तुम्हाला व्हायरल ताप आला असू शकतो. पाणी प्या, आराम करा आणि तापमान तपासत रहा."
+    },
+    "doctor_type": "General Physician",
+    "urgency": "normal"
+  },
+
+  "cold": {
+    "symptoms": {
+      "en": ["cold", "runny nose", "blocked nose", "sneezing"],
+      "hi": ["मुझे सर्दी है", "बहती नाक", "नाक बंद है", "मुझे छींक आ रही है"],
+      "mr": ["मला सर्दी झाली आहे", "नाक वाहत आहे", "नाक बंद आहे", "शिंक येत आहेत"]
+    },
+    "diseases": ["Common Cold", "Allergic Rhinitis", "Flu"],
+    "advice": {
+      "en": "This may be a common cold. Drink warm water and avoid cold food.",
+      "hi": "यह सामान्य सर्दी हो सकती है। गुनगुना पानी पिएं और ठंडी चीज़ें न खाएं।",
+      "mr": "ही सामान्य सर्दी असू शकते. कोमट पाणी प्या आणि थंड पदार्थ टाळा."
+    },
+    "doctor_type": "General Physician",
+    "urgency": "normal"
+  },
+
+  "cough": {
+    "symptoms": {
+      "en": ["cough", "dry cough", "wet cough", "throat irritation"],
+      "hi": ["मुझे खांसी है", "सूखी खांसी", "बलगम वाली खांसी", "गले में जलन"],
+      "mr": ["मला खोकला आहे", "कोरडा खोकला", "ओला खोकला", "घसा खवखवतोय"]
+    },
+    "diseases": ["Flu", "Bronchitis", "Asthma (possible)"],
+    "advice": {
+      "en": "Your cough may be due to infection or allergy. Drink warm water and rest.",
+      "hi": "आपकी खांसी संक्रमण या एलर्जी के कारण हो सकती है। गुनगुना पानी पिएं और आराम करें।",
+      "mr": "तुमचा खोकला संसर्ग किंवा अॅलर्जीमुळे असू शकतो. कोमट पाणी प्या आणि आराम करा."
+    },
+    "doctor_type": "Pulmonologist",
+    "urgency": "normal"
+  },
+
+  "sore_throat": {
+    "symptoms": {
+      "en": ["sore throat", "throat pain", "difficulty swallowing"],
+      "hi": ["गले में दर्द", "गला दुख रहा है", "निगलने में कठिनाई"],
+      "mr": ["घसा दुखतोय", "घशात वेदना", "गिळताना त्रास"]
+    },
+    "diseases": ["Throat Infection", "Tonsillitis", "Flu"],
+    "advice": {
+      "en": "You may have a throat infection. Gargle with warm salt water.",
+      "hi": "आपको गले में संक्रमण हो सकता है। गुनगुने नमक वाले पानी से गरारा करें।",
+      "mr": "तुमच्या घशात संसर्ग असू शकतो. कोमट खाऱ्या पाण्याने गुळण्या करा."
+    },
+    "doctor_type": "ENT Specialist",
+    "urgency": "normal"
+  },
+
+  "flu": {
+    "symptoms": {
+      "en": ["flu", "fever", "body pain", "weakness", "runny nose"],
+      "hi": ["फ्लू", "बुखार", "शरीर दर्द", "कमज़ोरी"],
+      "mr": ["फ्ल्यू", "ताप", "शरीरदुखी", "दम लागणे"]
+    },
+    "diseases": ["Seasonal Flu", "Viral Infection"],
+    "advice": {
+      "en": "You may have flu. Rest properly and avoid public places.",
+      "hi": "आपको फ्लू हो सकता है। आराम करें और भीड़भाड़ वाली जगहों से बचें।",
+      "mr": "तुम्हाला फ्ल्यू झाला असू शकतो. नीट विश्रांती घ्या आणि गर्दीच्या ठिकाणी जाणे टाळा."
+    },
+    "doctor_type": "General Physician",
+    "urgency": "normal"
+  },
+
+  "headache": {
+    "symptoms": {
+      "en": ["headache", "head pain", "pressure in head", "forehead pain"],
+      "hi": ["सिरदर्द", "मुझे सिरदर्द है", "सर में दर्द", "माथे में दर्द"],
+      "mr": ["डोकेदुखी", "डोकं दुखतंय", "माथ्यावर दुखतंय"]
+    },
+    "diseases": ["Tension Headache", "Migraine", "Dehydration"],
+    "advice": {
+      "en": "You may have a mild headache caused by stress or dehydration. Drink water and rest.",
+      "hi": "आपको तनाव या डिहाइड्रेशन के कारण हल्का सिरदर्द हो सकता है। पानी पिएं और आराम करें।",
+      "mr": "तुम्हाला ताण किंवा पाण्याच्या कमतरतेमुळे डोकेदुखी होत असू शकते. पाणी प्या आणि विश्रांती घ्या."
+    },
+    "doctor_type": "Neurologist",
+    "urgency": "normal"
+  },
+
+  "migraine": {
+    "symptoms": {
+      "en": ["migraine", "one-sided head pain", "light sensitivity", "nausea with headache"],
+      "hi": ["माइग्रेन", "एक तरफ का सिरदर्द", "रोशनी से दर्द", "सिरदर्द के साथ उल्टी"],
+      "mr": ["मायग्रेन", "एका बाजूला डोकेदुखी", "प्रकाशाची संवेदनशीलता", "उलटी सह डोकेदुखी"]
+    },
+    "diseases": ["Migraine"],
+    "advice": {
+      "en": "This looks like a migraine. Rest in a dark, quiet room and avoid bright lights.",
+      "hi": "यह माइग्रेन लग रहा है। शांत और अंधेरे कमरे में आराम करें और तेज रोशनी से बचें।",
+      "mr": "हे मायग्रेन असू शकते. अंधाऱ्या शांत खोलीत आराम करा आणि तेज प्रकाशापासून दूर रहा."
+    },
+    "doctor_type": "Neurologist",
+    "urgency": "moderate"
+  },
+
+  "dizziness": {
+    "symptoms": {
+      "en": ["dizziness", "feeling faint", "light-headed", "vertigo"],
+      "hi": ["चक्कर आना", "बेहोशी जैसा लगना", "सर हल्का लगना"],
+      "mr": ["गरगरणे", "भोवळ येणे", "डोकं हलकं वाटणे"]
+    },
+    "diseases": ["Vertigo", "Low Blood Pressure", "Dehydration"],
+    "advice": {
+      "en": "You may be dehydrated or weak. Sit down immediately and drink water.",
+      "hi": "आप डिहाइड्रेटेड या कमजोर हो सकते हैं। तुरंत बैठ जाएं और पानी पिएं।",
+      "mr": "तुम्ही निर्जलीकृत किंवा अशक्त असू शकता. लगेच बसा आणि पाणी प्या."
+    },
+    "doctor_type": "General Physician",
+    "urgency": "moderate"
+  },
+
+  "numbness": {
+    "symptoms": {
+      "en": ["numbness", "tingling", "loss of sensation", "pins and needles"],
+      "hi": ["सुन्नपन", "झुनझुनी", "संवेदना कम होना"],
+      "mr": ["बधिरपणा", "सुन्नपणा", "चुळचुळणे"]
+    },
+    "diseases": ["Nerve Compression", "Neuropathy", "Vitamin Deficiency"],
+    "advice": {
+      "en": "Numbness may be due to nerve issues. Avoid pressure on the affected area.",
+      "hi": "सुन्नपन नसों की समस्या के कारण हो सकता है। प्रभावित जगह पर दबाव न डालें।",
+      "mr": "सुन्नपणा नसांच्या समस्येमुळे होऊ शकतो. प्रभावित भागावर दाब येऊ देऊ नका."
+    },
+    "doctor_type": "Neurologist",
+    "urgency": "moderate"
+  },
+
+  "blurred_vision": {
+    "symptoms": {
+      "en": ["blurred vision", "vision loss", "double vision"],
+      "hi": ["धुंधला दिखना", "दृष्टि कम होना", "दो दिखना"],
+      "mr": ["दृष्टी धुसर", "दृष्टी कमी होणे", "दोन दिसणे"]
+    },
+    "diseases": ["Migraine Aura", "Eye Strain", "Blood Pressure Fluctuation"],
+    "advice": {
+      "en": "Avoid screens for a while and rest your eyes. If persistent, get an eye check-up.",
+      "hi": "स्क्रीन से दूर रहें और आंखों को आराम दें। यदि समस्या बनी रहे तो आंखों की जांच कराएं।",
+      "mr": "काही काळ स्क्रीनपासून दूर राहा आणि डोळ्यांना विश्रांती द्या. समस्या कायम राहिल्यास नेत्रतज्ञांना भेटा."
+    },
+    "doctor_type": "Ophthalmologist",
+    "urgency": "normal"
+  },
+
+  "stomach_pain": {
+    "symptoms": {
+      "en": ["stomach pain", "abdominal pain", "belly ache", "gas pain"],
+      "hi": ["पेट दर्द", "पेट में दर्द", "उदर में दर्द", "गैस से दर्द"],
+      "mr": ["पोटदुखी", "पोटात दुखणे", "गॅसचा त्रास"]
+    },
+    "diseases": ["Gastritis", "Gas/Acidity", "Stomach Infection"],
+    "advice": {
+      "en": "It may be due to gas or infection. Drink warm water and avoid spicy food for now.",
+      "hi": "यह गैस या इंफेक्शन के कारण हो सकता है। गुनगुना पानी पिएं और मसालेदार भोजन से बचें।",
+      "mr": "हे गॅस किंवा संसर्गामुळे होऊ शकते. कोमट पाणी प्या आणि मसालेदार जेवण टाळा."
+    },
+    "doctor_type": "Gastroenterologist",
+    "urgency": "normal"
+  },
+
+  "acidity": {
+    "symptoms": {
+      "en": ["acidity", "burning chest", "gastric burning", "acid reflux"],
+      "hi": ["एसिडिटी", "सीने में जलन", "गैस जलन", "खट्टी डकार"],
+      "mr": ["अॅसिडिटी", "छातीत जळजळ", "आम्लपित्त"]
+    },
+    "diseases": ["Acid Reflux", "GERD", "Gastritis"],
+    "advice": {
+      "en": "Avoid oily food, caffeine, and lying down immediately after eating.",
+      "hi": "तेल वाला खाना, कैफीन और खाने के तुरंत बाद लेटना अवॉयड करें।",
+      "mr": "तेलकट पदार्थ, कॅफिन आणि जेवणानंतर लगेच झोपणे टाळा."
+    },
+    "doctor_type": "Gastroenterologist",
+    "urgency": "normal"
+  },
+
+  "vomiting": {
+    "symptoms": {
+      "en": ["vomiting", "nausea", "feeling like vomiting", "throwing up"],
+      "hi": ["उल्टी", "उल्टी जैसा लगना", "मिचली आना"],
+      "mr": ["ओकाऱ्याची भावना", "उलटी होणे", "मळमळ"]
+    },
+    "diseases": ["Food Poisoning", "Stomach Infection", "Migraine"],
+    "advice": {
+      "en": "Sip ORS or lemon water. Avoid heavy meals. If vomiting continues, seek help.",
+      "hi": "ORS या नींबू पानी लें और भारी खाना न खाएं। उल्टी ज्यादा हो तो डॉक्टर से मिलें।",
+      "mr": "ORS किंवा लिंबू पाणी घ्या. जड अन्न टाळा. उलटी वाढल्यास डॉक्टरांना भेटा."
+    },
+    "doctor_type": "General Physician",
+    "urgency": "moderate"
+  },
+
+  "diarrhea": {
+    "symptoms": {
+      "en": ["diarrhea", "loose motions", "watery stool"],
+      "hi": ["डायरिया", "दस्त लगना", "पतला मल"],
+      "mr": ["जुलाब", "पातळ शौच"]
+    },
+    "diseases": ["Food Poisoning", "Stomach Infection", "Contaminated Water Infection"],
+    "advice": {
+      "en": "Drink plenty of ORS. Avoid milk products and street food for now.",
+      "hi": "ORS पीते रहें। दूध से बनी चीज़ें और बाहर का खाना अवॉयड करें।",
+      "mr": "ORS भरपूर प्या. दुग्धजन्य पदार्थ आणि बाहेरचे अन्न टाळा."
+    },
+    "doctor_type": "General Physician",
+    "urgency": "moderate"
+  },
+
+  "constipation": {
+    "symptoms": {
+      "en": ["constipation", "difficulty passing stool", "hard stool"],
+      "hi": ["कब्ज", "पेट साफ न होना", "कठोर मल"],
+      "mr": ["बद्धकोष्ठता", "शौचास त्रास", "कडक मल"]
+    },
+    "diseases": ["Constipation", "Low Fiber Diet", "Dehydration"],
+    "advice": {
+      "en": "Increase fiber intake, drink warm water, and include fruits like papaya.",
+      "hi": "फाइबर बढ़ाएं, गुनगुना पानी पिएं और पपीता जैसे फल खाएं।",
+      "mr": "फायबर वाढवा, कोमट पाणी प्या आणि पपईसारखी फळे खा."
+    },
+    "doctor_type": "Gastroenterologist",
+    "urgency": "normal"
+  },
+
+  "indigestion": {
+    "symptoms": {
+      "en": ["indigestion", "heaviness after meals", "bloating", "gas trouble"],
+      "hi": ["अपच", "खाना भारी लगना", "पेट फूलना", "गैस की तकलीफ"],
+      "mr": ["अपचन", "जेवणानंतर जडपणा", "पोट फुगणे"]
+    },
+    "diseases": ["Indigestion", "Gas Trouble", "Slow Digestion"],
+    "advice": {
+      "en": "Eat smaller meals and avoid fried or processed foods for now.",
+      "hi": "छोटे-छोटे भोजन लें और तला-भुना खाना अवॉयड करें।",
+      "mr": "लहान प्रमाणात जेवा आणि तेलकट पदार्थ टाळा."
+    },
+    "doctor_type": "General Physician",
+    "urgency": "normal"
+  },
+
+  "chest_pain": {
+    "symptoms": {
+      "en": ["chest pain", "pain in chest", "pressure in chest", "tight chest"],
+      "hi": ["सीने में दर्द", "छाती में दर्द", "सीने में भारीपन"],
+      "mr": ["छातीदुखी", "छातीत वेदना", "छातीत दाब जाणवणे"]
+    },
+    "diseases": ["Angina", "Gas-related Chest Pain", "Heart Attack (Emergency check required)"],
+    "advice": {
+      "en": "If pain is severe or spreads to the arm or jaw, seek emergency care immediately.",
+      "hi": "अगर दर्द ज्यादा है या हाथ/जबड़े तक जा रहा है तो तुरंत इमरजेंसी में जाएं।",
+      "mr": "जर वेदना जास्त आहे किंवा हात/जबड्यापर्यंत पसरत असेल तर तात्काळ आपत्कालीन मदत घ्या."
+    },
+    "doctor_type": "Cardiologist",
+    "urgency": "high"
+  },
+
+  "shortness_of_breath": {
+    "symptoms": {
+      "en": ["shortness of breath", "difficulty breathing", "breathlessness"],
+      "hi": ["सांस फूलना", "सांस लेने में तकलीफ"],
+      "mr": ["श्वास घेण्यास त्रास", "धाप लागणे"]
+    },
+    "diseases": ["Asthma", "Heart Issues", "Lung Infection"],
+    "advice": {
+      "en": "Stay calm, sit upright, and take slow breaths. Seek help if it worsens.",
+      "hi": "शांत रहें, सीधा बैठें और धीरे सांस लें। तकलीफ बढ़े तो तुरंत डॉक्टर से मिलें।",
+      "mr": "शांत बसा, सरळ बसा आणि हळू श्वास घ्या. त्रास वाढल्यास डॉक्टरांकडे जा."
+    },
+    "doctor_type": "Pulmonologist",
+    "urgency": "high"
+  },
+
+  "high_bp": {
+    "symptoms": {
+      "en": ["high blood pressure", "bp high", "head pressure", "blurred vision"],
+      "hi": ["ब्लड प्रेशर हाई", "बीपी बढ़ा हुआ", "सर भारी लगना"],
+      "mr": ["उच्च रक्तदाब", "बीपी वाढलेला", "डोके जड वाटणे"]
+    },
+    "diseases": ["Hypertension", "Stress-related BP Rise"],
+    "advice": {
+      "en": "Sit down, relax, avoid salty foods and monitor BP. Seek help if symptoms increase.",
+      "hi": "बैठें, रिलैक्स करें, नमक कम करें और BP चेक रखें। बढ़ने पर तुरंत मदद लें।",
+      "mr": "बसून रहा, शांत राहा, मिठाचे सेवन कमी करा आणि बीपी तपासा. वाढल्यास मदत घ्या."
+    },
+    "doctor_type": "Cardiologist",
+    "urgency": "moderate"
+  },
+
+  "low_bp": {
+    "symptoms": {
+      "en": ["low bp", "low blood pressure", "dizziness after standing", "weakness"],
+      "hi": ["लो BP", "कम ब्लड प्रेशर", "चक्कर आना"],
+      "mr": ["कमी रक्तदाब", "बीपी लो", "गरगरणे"]
+    },
+    "diseases": ["Low Blood Pressure", "Dehydration"],
+    "advice": {
+      "en": "Drink ORS or salty water and lie down for a few minutes.",
+      "hi": "ORS या नमकीन पानी पिएं और कुछ देर लेट जाएं।",
+      "mr": "ORS किंवा खारट पाणी प्या आणि काही वेळ आडवे व्हा."
+    },
+    "doctor_type": "General Physician",
+    "urgency": "moderate"
+  },
+
+  "palpitations": {
+    "symptoms": {
+      "en": ["fast heartbeat", "heart racing", "irregular heartbeat", "palpitations"],
+      "hi": ["दिल तेजी से धड़कना", "हार्टबीट तेज होना"],
+      "mr": ["हृदयाचे ठोके वेगाने जाणे", "धडधड वाढणे"]
+    },
+    "diseases": ["Anxiety", "Dehydration", "Cardiac Rhythm Issue"],
+    "advice": {
+      "en": "Drink water, take deep breaths, and avoid caffeine for a few hours.",
+      "hi": "पानी पिएं, गहरी सांस लें और कुछ घंटे कैफीन न लें।",
+      "mr": "पाणी प्या, खोल श्वास घ्या आणि काही तास कॅफिन टाळा."
+    },
+    "doctor_type": "Cardiologist",
+    "urgency": "moderate"
+  },
+
+  "back_pain": {
+    "symptoms": {
+      "en": ["back pain", "lower back pain", "back stiffness", "backache"],
+      "hi": ["पीठ दर्द", "कमर दर्द", "पीठ में जकड़न"],
+      "mr": ["पाठदुखी", "कंबरदुखी", "पाठीचा त्रास"]
+    },
+    "diseases": ["Muscle Strain", "Posture Problem", "Spine Issues"],
+    "advice": {
+      "en": "Avoid heavy lifting, apply hot compress, and maintain correct posture.",
+      "hi": "भारी चीज़ें न उठाएं, गर्म पट्टी लगाएं और सही पोस्चर रखें।",
+      "mr": "जड वस्तू उचलू नका, गरम शेक द्या आणि योग्य पोश्चर ठेवा."
+    },
+    "doctor_type": "Orthopedic",
+    "urgency": "normal"
+  },
+
+  "joint_pain": {
+    "symptoms": {
+      "en": ["joint pain", "knee pain", "elbow pain", "joint stiffness"],
+      "hi": ["जोड़ों में दर्द", "घुटने में दर्द", "कोहनी में दर्द"],
+      "mr": ["सांधेदुखी", "गुडघेदुखी", "कोपर दुखणे"]
+    },
+    "diseases": ["Arthritis", "Joint Inflammation", "Muscle Strain"],
+    "advice": {
+      "en": "Rest the joint, use warm compress, and avoid excessive movement.",
+      "hi": "जोड़ को आराम दें, गर्म पट्टी लगाएं और ज्यादा चलना-फिरना अवॉयड करें।",
+      "mr": "सांध्याला विश्रांती द्या, गरम शेक द्या आणि जास्त हालचाल टाळा."
+    },
+    "doctor_type": "Orthopedic",
+    "urgency": "normal"
+  },
+
+  "leg_pain": {
+    "symptoms": {
+      "en": ["leg pain", "thigh pain", "calf pain", "leg cramps"],
+      "hi": ["पैर दर्द", "जांघ में दर्द", "पैर का ऐंठन"],
+      "mr": ["पाय दुखणे", "मांडीत दुखणे", "पायात गोळा येणे"]
+    },
+    "diseases": ["Muscle Cramp", "Dehydration", "Nerve Compression"],
+    "advice": {
+      "en": "Stay hydrated, massage the area gently, and do light stretching.",
+      "hi": "पानी ज्यादा पिएं, हल्की मसाज करें और हल्की स्ट्रेचिंग करें।",
+      "mr": "पुरेसे पाणी प्या, हलकी मालिश करा आणि सौम्य स्ट्रेचिंग करा."
+    },
+    "doctor_type": "Physiotherapist",
+    "urgency": "low"
+  },
+
+  "swelling": {
+    "symptoms": {
+      "en": ["swelling", "swollen joint", "swollen ankle", "inflammation"],
+      "hi": ["सूजन", "सूजा हुआ जोड़", "टखने में सूजन"],
+      "mr": ["सुज", "सांध्यात सूज", "घोटा सुजणे"]
+    },
+    "diseases": ["Injury", "Sprain", "Fluid Retention", "Arthritis"],
+    "advice": {
+      "en": "Apply ice for 10–15 minutes and keep the swollen area elevated.",
+      "hi": "10–15 मिनट बर्फ लगाएं और सूजी हुई जगह को ऊपर रखें।",
+      "mr": "10–15 मिनिट बर्फ लावा आणि सूजलेला भाग उंच ठेवा."
+    },
+    "doctor_type": "Orthopedic",
+    "urgency": "moderate"
+  },
+
+  "sprain": {
+    "symptoms": {
+      "en": ["sprain", "twisted ankle", "muscle twist", "joint sprain"],
+      "hi": ["मोड़ आना", "टखना मुड़ना", "मसल ट्विस्ट"],
+      "mr": ["मुरगळणे", "घोटा मुरगळणे", "स्नायू मुरगळणे"]
+    },
+    "diseases": ["Ligament Injury", "Muscle Sprain"],
+    "advice": {
+      "en": "Follow RICE: Rest, Ice, Compression, Elevation.",
+      "hi": "RICE अपनाएं: Rest, Ice, Compression, Elevation.",
+      "mr": "RICE पद्धत वापरा: विश्रांती, बर्फ, दाब, उंची."
+    },
+    "doctor_type": "Orthopedic",
+    "urgency": "normal"
+  }
+}

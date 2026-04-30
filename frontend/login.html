@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login – AI Symptom Checker</title>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    /* Faded Medical Icons Background */
+    body {
+      background: linear-gradient(to bottom right, #dff6ff, #c8fff4);
+      background-attachment: fixed;
+    }
+
+    .bg-medical {
+      background-image: url('https://cdn-icons-png.flaticon.com/512/2966/2966327.png');
+      opacity: 0.05;
+      background-size: 500px;
+      background-repeat: no-repeat;
+      background-position: center;
+      position: absolute;
+      inset: 0;
+      z-index: -1;
+    }
+
+    /* Glass effect card */
+    .glass-card {
+      backdrop-filter: blur(15px);
+      background: rgba(255, 255, 255, 0.25);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+
+  </style>
+</head>
+
+<body class="font-sans relative">
+
+  <div class="bg-medical"></div>
+
+  <!-- Navbar -->
+  <header class="bg-white shadow-md fixed top-0 left-0 w-full z-30">
+    <div class="max-w-6xl mx-auto flex items-center justify-between p-4">
+      <div class="flex items-center gap-3">
+        <span class="text-xl font-bold text-blue-600">🩺 AI Symptom Checker</span>
+      </div>
+      <nav class="hidden md:flex items-center gap-6">
+        <a href="index.html" class="text-gray-700 hover:text-blue-600">Home</a>
+        <a href="about.html" class="text-gray-700 hover:text-blue-600">About</a>
+        <a href="login.html" class="text-blue-600 font-semibold">Log In</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Spacer for navbar -->
+  <div class="h-24"></div>
+
+  <!-- Login Section -->
+  <section class="flex justify-center items-center min-h-[70vh] px-4">
+
+    <div class="glass-card rounded-2xl shadow-2xl p-10 max-w-md w-full">
+
+      <h2 class="text-3xl font-bold text-center text-blue-700 mb-8">User Login</h2>
+
+      <form>
+        <label class="block mb-3">
+          <span class="text-gray-700">Email</span>
+          <input type="email" class="mt-1 block w-full p-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-400 outline-none" placeholder="Enter your email" required>
+        </label>
+
+        <label class="block mb-5">
+          <span class="text-gray-700">Password</span>
+          <input type="password" class="mt-1 block w-full p-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-400 outline-none" placeholder="Enter your password" required>
+        </label>
+
+        <button type="submit" class="w-full py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition">
+          Log In
+        </button>
+      </form>
+
+      <p class="text-center text-gray-600 mt-4">
+        Don’t have an account? <a href="#" class="text-blue-600 hover:underline">Sign up</a>
+      </p>
+
+      <div class="text-center mt-6">
+        <a href="index.html" 
+           class="text-blue-600 hover:underline">
+          ← Back to Home
+        </a>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-700 text-white text-center py-5 mt-10">
+    &copy; 2025 AI Symptom Checker | Built with ❤️ for healthcare accessibility
+  </footer>
+
+</body>
+</html>
